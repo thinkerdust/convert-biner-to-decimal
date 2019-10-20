@@ -9,9 +9,8 @@ Tanggal     : 19-10-2019
 biner = input("masukkan nilai biner :")
 panjang = len(biner)
 pangkat = 0
-char = 0
 desimal = 0
-while char < panjang :
+while panjang > 0 :
     panjang -= 1
     string = biner[panjang]
     if string == 1 or string == "1" :
